@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200eb8ce25c1c514aa4e32258f4c3ede, type: 3}
+  m_Name: Tile Content Factory
+  m_EditorClassIdentifier: 
+  destinationPrefab: {fileID: 1390378295049187413, guid: ca095b5ae0bf76e47b255de00250628e, type: 3}
+  arrowPrefab: {fileID: 3834238822597244016, guid: 6dcdf21b5aaf78042846b32d8f050dae, type: 3}
+  emptyPrefab: {fileID: 7672354379197392171, guid: 0c662b6ea08857440a804aa6f30adb83, type: 3}
+  startPrefab: {fileID: 9149005566296743068, guid: 16a4608fa7b3a97458a5129ad301695f, type: 3}
