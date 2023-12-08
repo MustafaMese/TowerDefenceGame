@@ -42,13 +42,13 @@ public static class SaveManager
             {
                 Debug.LogError("Error loading player data: " + e.Message);
                 fileStream.Close();
-                return null;
+                return new GameState();
             }
         }
         else
         {
             Debug.LogWarning("No saved data found.");
-            return null;
+            return new GameState();
         }
     }
 }

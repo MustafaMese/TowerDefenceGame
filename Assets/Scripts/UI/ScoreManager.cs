@@ -16,7 +16,11 @@ public class ScoreManager : MonoBehaviour
         if(GameManager.Instance.AutoSaveHandler.IsLoadSelected)
             LoadScore(GameManager.Instance.AutoSaveHandler.GetGameState().GetScore());
         
-        scoreText.SetCharArray(_score.ConvertToCharArray());
+        if(_score == 0)
+            scoreText.SetText(0.ToString());
+        else
+            scoreText.SetCharArray(_score.ConvertToCharArray());
+        
         GameManager.Instance.CommandManager.AddCommandListener<AutoSaveCommand>(AutoSaveCommand);
     }
 
