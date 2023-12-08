@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9a87a9d364c8f4203a189b16cc2c4903, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3287c8e0e1efb47e39b59c24706d6183, type: 3}
+  - {fileID: 21300000, guid: 63f8ece1280c74e4b87b2f8caca537e8, type: 3}
+  - {fileID: 21300000, guid: 008e4c22290c14a4881d2b56393fff86, type: 3}
+  - {fileID: 21300000, guid: 44a8aa720881a4749bad9a5b38ac9f45, type: 3}
+  - {fileID: 21300000, guid: 62763c539c9b0441590367b220c276b2, type: 3}
+  - {fileID: 21300000, guid: 491de6b429cf840778091050277d0f0b, type: 3}
+  - {fileID: 21300000, guid: 02ca81150fff14224b9325650915705b, type: 3}
+  - {fileID: 21300000, guid: 20e49a3669d194ceb88fe931d7394312, type: 3}
+  - {fileID: 21300000, guid: 06c426968e8cd4c24bbd3405633c0373, type: 3}
+  - {fileID: 21300000, guid: b03bbd07be2864868811939d7476f174, type: 3}
+  - {fileID: 21300000, guid: 33d773375c3e66e4cbda0650871740f5, type: 3}
+  - {fileID: 21300000, guid: 9b6180d73b3ed4edaa66ee1d124c9cab, type: 3}
+  - {fileID: 21300000, guid: 9649da48adca8b44088897cb335c79af, type: 3}
+  - {fileID: 21300000, guid: c5f381a83628c4100b812d1fd7b8ab4c, type: 3}
+  - {fileID: 21300000, guid: c295a8d959c5845448cbf55fb3196a4e, type: 3}
+  - {fileID: 21300000, guid: 9b0daad95fc254ed69742a6f403df56d, type: 3}
+  - {fileID: 21300000, guid: 6e5e0b2cc64a6462e896509db1d8e98f, type: 3}
+  - {fileID: 21300000, guid: 96d27a3d80db14aba947ac1ccc86ff4f, type: 3}
+  - {fileID: 21300000, guid: 44c9806eca19a48329cd9c9d0e274588, type: 3}
+  - {fileID: 21300000, guid: 253ddedeb731b44e7a0c3f94c194a7ac, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - alienPink_walk2
+  - tileDirt
+  - woodDoorWindowMirror
+  - alienYellow_walk1
+  - alienBlue_walk1
+  - alienBlue_walk2
+  - alienGreen_walk2
+  - pineAutumn_mid
+  - alienBeige_walk2
+  - tileRock
+  - SmokePack 1
+  - pineGreen_mid
+  - blue_button06
+  - alienBeige_walk1
+  - alienGreen_walk1
+  - pineBlue_mid
+  - alienPink_walk1
+  - tileGrass
+  - alienYellow_walk2
+  - sandRoofTall
+  m_RenderDataMap: {}
+  m_Tag: Sprite Atlas
+  m_IsVariant: 0

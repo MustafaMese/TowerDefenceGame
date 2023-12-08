@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7941886019003929463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7941886019003929457}
+  - component: {fileID: 7941886019003929459}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7941886019003929457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7941886019003929463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7941886019003929459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7941886019003929463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 406a6c496779c4701a7b8bd4797d8746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelCreatorPrefab: {fileID: 174521788108554974, guid: abbf53059ebe24c32aed46c0384e64ae, type: 3}
+  enemyManagerPrefab: {fileID: 9148643594270288780, guid: b8f3f1b311f5d4c79ba9a35a9d0b4e83, type: 3}
+  towerManagerPrefab: {fileID: 7215055395105056705, guid: 079778a248cb54ee8916a7d9322723c4, type: 3}
+  scoreManagerPrefab: {fileID: 1062818795918858487, guid: 89326c31460a94eff96db77b6f67b3fd, type: 3}
+  loginUiPrefab: {fileID: 6159514727102217961, guid: aab79acf2556042a793a2b049298a10e, type: 3}
+  floatingTextControllerPrefab: {fileID: 5329939005049463588, guid: 677c0990f456643f89be6444cb45dd55, type: 3}
+  savingInterval: 60
